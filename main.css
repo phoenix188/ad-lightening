@@ -1,0 +1,73 @@
+body
+
+{
+	margin: 0;
+}
+
+header
+
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: red;
+	border-bottom: 1px solid indianred;
+    border-radius: 0px 0px 2px 0px;
+}
+
+#logo img
+
+{
+	width: 65px;
+	padding-top: 5px;
+}
+
+.navigation-display
+
+{
+	display: flex;
+	margin-right: 40px;
+	margin-top: 25px;
+}
+
+.navigation-display li
+
+{
+	list-style-type: none;
+	padding-right: 15px;
+}
+
+.navigation-display a
+
+{
+	text-decoration: none;
+	color: white;
+	font-size: 17.5px;
+	text-transform: uppercase;
+}
+
+a:hover 
+
+{
+	color: black;
+	border-bottom: 1px solid black;
+}
+
+.background-img
+
+{
+	background: url("images/startuprivality.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
