@@ -52,17 +52,33 @@ a:hover
 	border-bottom: 1px solid black;
 }
 
-.background-img
+.header-img
 
 {
-	background: url("images/startuprivality.jpg");
-	background-repeat: no-repeat;
-	background-size: 1000px;
+	background: url("images/pic1.jpg");
+	height: 400px;
+	background-size: cover;
+	background-position: 50% 12%;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 80px;
 }
 
 
 
+#header-description h3
 
+{
+	margin: 0px;
+	font-size: 25px;
+}
+
+#header-description p
+
+{
+	text-align: center;
+	font-size: 18px;
+}
 
 
 
