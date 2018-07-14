@@ -70,15 +70,64 @@ a:hover
 
 {
 	margin: 0px;
-	font-size: 25px;
+	font-size: 35px;
 }
 
 #header-description p
 
 {
 	text-align: center;
-	font-size: 18px;
+	font-size: 25px;
 }
+
+.form-design
+
+{
+	padding: 15px;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin-bottom: 105px;
+}
+
+
+.form-design input
+
+{
+	display: flex;
+	padding: 5px;
+	padding-right: 20px;
+	margin-bottom: 12px;
+	font-size: 15px;
+}
+
+.form-design textarea
+
+{
+	display: flex;
+	padding: 5px;
+	padding-right: 74px;
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+
+.bouton-design1
+
+{
+    background-color: red;
+    padding: 12.5px;
+    padding-left: 44px;
+    padding-right: 44px;
+    font-size: 18px;
+    color: white;
+    border-radius: 6px;
+}
+
+.bouton-design1:hover 
+
+{
+	background-color: black;
+	cursor: pointer;
+}
+
 
 
 
