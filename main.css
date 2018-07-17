@@ -2,6 +2,7 @@ body
 
 {
 	margin: 0;
+	font-family: Source Sans Pro,Helvetica,Arial,sans-serif; 
 }
 
 header
@@ -19,6 +20,7 @@ header
 {
 	width: 65px;
 	padding-top: 5px;
+	margin-left: 40px;
 }
 
 .navigation-display
@@ -71,6 +73,7 @@ a:hover
 {
 	margin: 0px;
 	font-size: 30px;
+
 }
 
 #header-description p
@@ -128,10 +131,43 @@ a:hover
 	cursor: pointer;
 }
 
+.ligne-flotaison
+
+{
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.ligne-flotaison p
+
+{
+	border-top: 2.5px solid #F44336;
+    border-radius: 50px;
+    padding-top: 15px;
+    text-transform: lowercase;
+    font-size: 18px;
+}
+
+.roadmap-images
+
+{
+	position: relative;
+}
 
 
+.roadmap-images img
 
+{
+		
+	width: 33%;
+}
 
+.description-roadmap
+
+{
+	position: absolute;
+}
 
 
 
