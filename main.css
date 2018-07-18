@@ -3,6 +3,7 @@ body
 {
 	margin: 0;
 	font-family: Source Sans Pro,Helvetica,Arial,sans-serif; 
+	max-width: 2080px;
 }
 
 header
@@ -149,24 +150,36 @@ a:hover
     font-size: 18px;
 }
 
+.wrapper
+
+{
+	width: 1280px;
+}
 .roadmap-images
 
 {
 	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	
 }
 
 
 .roadmap-images img
 
 {
-		
+	position: relative;		
 	width: 33%;
+	height: 400px;
 }
 
 .description-roadmap
 
 {
 	position: absolute;
+	bottom: 0px;
+	margin: 0px;
 }
 
 
